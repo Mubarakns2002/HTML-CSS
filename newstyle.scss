@@ -1,0 +1,24 @@
+$primary:blue;
+$f:'arial';
+$b:2px solid;
+$w:flex;
+$n:20%;
+$justify:space-evenly;
+
+.class1{
+    p {
+    font-family:$f;
+    border top:$b;
+    color:$primary ;
+    }
+
+    h1 {
+        color:$primary;
+    }
+}
+.parent{
+    border:$primary;
+    display:$w ;
+    width:$n;
+    justify-content:$justify;
+} 

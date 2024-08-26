@@ -1,0 +1,25 @@
+$primary:rgb(0, 255, 136);
+$s:'roman';
+.group1{
+    h1{
+        color:$primary;
+    }
+    p{
+       color:black;
+        // background-color:$primary ;
+        font-family:$s;
+    }
+
+}
+@mixin common_style($color){
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: left;
+color:$color
+}
+header{
+    nav{
+        a{
+            @include common_style(yellow)
+        }
+    }
+}
